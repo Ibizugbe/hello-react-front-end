@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hello World!</h1>
-      <Link to="/greeting">Go page details</Link>
+      <Link to="/greeting">See greetings</Link>
       <Routes>
         <Route path="/greeting" element={<Greeting />} />
       </Routes>
