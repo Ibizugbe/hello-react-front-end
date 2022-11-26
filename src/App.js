@@ -1,6 +1,6 @@
-import './App.css';
-import { Routes, Route, Link } from 'react-router-dom';
-import Greeting from './components/greetings';
+import "./App.css";
+import { Routes, Route, Link } from "react-router-dom";
+import Greeting from "./components/greetings";
 
 function App() {
   return (
@@ -13,5 +13,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
